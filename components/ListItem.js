@@ -4,6 +4,16 @@ import { View, Text, StyleSheet, Platform } from 'react-native';
 import ItemControls from './ItemControls';
 import Colors from '../constants/Colors';
 
+/**
+ * ListItem component provides the mechanism for displaying
+ * the data fields of existing Item in the 'items' collection.
+ * It also serves as a container for the ItemControls ('./ItemControls.js')
+ * for Updating, and Deleting the item.
+ *
+ * @version 1.0.0
+ * @author [Derrik Fleming](https://github.com/drkmcfrk)
+ */
+
 const ListItem = props => {
 	return (
 		<View style={styles.item}>

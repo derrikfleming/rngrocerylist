@@ -6,6 +6,14 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Colors from '../constants/Colors';
 
+/**
+ * AddItem component provides the user with inputs to add new items
+ * to the 'items' collection.
+ *
+ * @version 1.0.0
+ * @author [Derrik Fleming](https://github.com/drkmcfrk)
+ */
+
 class AddItem extends Component {
 	constructor(props) {
 		super(props);
